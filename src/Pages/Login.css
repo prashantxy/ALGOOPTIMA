@@ -1,0 +1,75 @@
+.login-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group.remember-me {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group.remember-me input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .login-btn,
+  .create-account-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5A67D8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .create-account-btn {
+    background-color: #4285F4;
+    margin-top: 20px;
+  }
+  
+  .login-form p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-form p a {
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .login-form p a:hover {
+    text-decoration: underline;
+  }
+  

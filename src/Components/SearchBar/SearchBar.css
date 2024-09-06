@@ -1,0 +1,52 @@
+.emergency-search-bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .emergency-search-bar-label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+ .emergency-search-bar input {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    flex: 1;
+    padding: 8px;
+    width: 250px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .emergency-suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    background-color: white;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .emergency-suggestions-list li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .emergency-suggestions-list li:hover {
+    background-color: #ddd;
+  }
+  

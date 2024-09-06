@@ -1,0 +1,76 @@
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  .sidebar-nav a {
+    text-decoration: none; /* Removes the underline from links */
+    color: #38393a; /* Default link color */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  .sidebar-nav li svg {
+    margin-right: 10px;
+  }
+
+  .sidebar-false {
+    position: fixed;
+    top: 0;
+    /* margin-left: -290px; */
+    left: -270px;
+    background-color: #f0f0f0;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: 1s;
+  }
+  .sidebar-true {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: 1s;
+  }
+.sidebar-control{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2d2b2b;
+    left: 108%;
+    padding-left: 10px;
+    scale: 3;
+    border-radius: 3px;
+    border: none;
+    z-index: -1;
+    box-shadow: 0 1px 1px #b4b4b4;
+  }
+
+  .sidebar-control:hover {
+    box-shadow: 0 2px 6px #38393a,
+                1px 3px 7px #38393a;
+    z-index: -1;
+  }
+
+  
+  .side
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+

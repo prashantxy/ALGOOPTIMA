@@ -1,0 +1,94 @@
+.add-bus-container {
+  border: 1px transparent;
+  background: #fcfafa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px #000;
+}
+.add-bus-container > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-bus.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  width: fit-content;
+  box-shadow: 0 2px 5px #000111;
+}
+.add-bus.form > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.combobox-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px #000111;
+}
+.busdata-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px #000111;
+}
+
+.input-container,
+.stop-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stop-container {
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 1px 3px #03073e;
+}
+.input-container > input,
+.stop-container > input {
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px #03073e;
+}
+
+.stop-container > button,
+.submit-button > button {
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  scale: 1;
+}
+
+.stop-container > button:hover,
+.submit-button > button:hover {
+  box-shadow: 0 1px 3px #03073e, 
+             0 2px 5px #03073e;
+}
+
+.stop-container > button:active,
+.submit-button > button:active {
+  box-shadow: 0 1px 3px #0c0c12,
+             0 2px 5px #0a0a0e;
+  scale: 0.8;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+.submit-button > button {
+  flex: 1 1 50%;
+}

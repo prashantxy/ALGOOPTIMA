@@ -1,0 +1,86 @@
+.signup-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+ 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .signup-form h2 {
+    text-align: center;
+ 
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group small {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+  }
+  
+  .form-group input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .form-group div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .create-account-btn,
+  .google-signup-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5A67D8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .google-signup-btn {
+    background-color: #4285F4;
+    margin-bottom: 15px;
+  }
+  
+  .signup-form p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-form p a {
+    color: #5A67D8;
+    text-decoration: none;
+  }
+  
+  .signup-form p a:hover {
+    text-decoration: underline;
+  }
+  

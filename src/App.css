@@ -1,0 +1,13 @@
+.app-container {
+  display: flex;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  max-height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  flex: 1; 
+  
+}
